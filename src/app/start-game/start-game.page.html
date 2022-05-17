@@ -1,0 +1,39 @@
+<ion-header color="tertiary">
+  <ion-toolbar color="tertiary">
+    <ion-title>TIC - TAC - TOE</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="tertiary">
+  <ion-card>
+    <div class="image">
+      <img
+        src="https://previews.123rf.com/images/siberia/siberia1901/siberia190100013/119955424-vector-hand-drawn-noughts-and-crosses-.jpg"
+        width="150"
+        height="150"
+      />
+    </div>
+
+    <ion-card-header>
+      <ion-card-subtitle>Game Description</ion-card-subtitle>
+      <ion-card-title>Tic-Tac-Toe</ion-card-title>
+    </ion-card-header>
+    <ion-card-content class="text">
+      In turn, players choose an empty cell and draw their symbol on it (usually
+      one player has an "X" as a symbol and the opponent has a circle). The
+      player who manages to arrange three of their symbols in a straight
+      horizontal, vertical or diagonal line wins. If the grid is filled without
+      either player managing to complete a straight line of three symbols, the
+      game ends in a tie. In the event that the game ends in a draw, the game is
+      called a "draw"
+    </ion-card-content>
+  </ion-card>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col class="ion-text-center">
+        <ion-button color="light" (click)="goGame()"> Play Game </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

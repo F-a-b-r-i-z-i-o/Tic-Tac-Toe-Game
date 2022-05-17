@@ -1,27 +1,34 @@
-#container {
-  text-align: center;
-
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+.calc-button{
+    height: 80px;
+    width: 80px;
+    text-align: center;
+}
+.text{
+    font-size: 40px;
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+.container{
+    display: flex;
+}
+.enter{
+    flex: auto;
+    margin-right: 40px;
+   
+}
+.icon{
+    flex: auto;
+    margin-top: 8px;
+    margin-left: 30px;
+    height: 100%;
+    width: 100%;
+}
+.turn{
+    margin-top: 5%;
+    font-size: large;
+    font-weight: bolder;
+    text-align: right;
 }
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
-}
-
-#container a {
-  text-decoration: none;
+ion-title{
+    font-size: larger;
 }

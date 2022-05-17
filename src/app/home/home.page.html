@@ -1,20 +1,157 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
+<ion-header color="tertiary">
+  <ion-toolbar color="tertiary">
+    <ion-title>Game</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+<ion-content color="tertiary">
+  <ion-item color="tertiary">
+    <ion-label>
+      <div class="container">
+        <h1>Player</h1>
+        <div class="icon">
+          <ion-icon name="play-outline"></ion-icon>
+        </div>
+        <div class="enter">
+          <h1 class="turn">{{turn}}</h1>
+        </div>
+      </div>
+    </ion-label>
+  </ion-item>
 </ion-content>
+
+<ion-row class="ion-justify-content-center">
+  <ion-col size="3">
+    <div class="button">
+      <ion-button
+        id="btn"
+        color="light"
+        class="calc-button"
+        (click)="click(0)"
+        size="large"
+      >
+        <p class="text">{{array[0]}}</p>
+      </ion-button>
+    </div>
+  </ion-col>
+  <ion-col size="3">
+    <div>
+      <ion-button
+        color="light"
+        id="btn"
+        class="calc-button"
+        (click)="click(1)"
+        size="large"
+      >
+        <p class="text">{{array[1]}}</p>
+      </ion-button>
+    </div>
+  </ion-col>
+  <ion-col size="3">
+    <div>
+      <ion-button
+        id="btn"
+        color="light"
+        class="calc-button"
+        (click)="click(2)"
+        size="large"
+      >
+        <p class="text">{{array[2]}}</p>
+      </ion-button>
+    </div>
+  </ion-col>
+</ion-row>
+
+<ion-row class="ion-justify-content-center">
+  <ion-col size="3">
+    <div>
+      <ion-button
+        id="btn"
+        color="light"
+        class="calc-button"
+        (click)="click(3)"
+        size="large"
+      >
+        <p class="text">{{array[3]}}</p>
+      </ion-button>
+    </div>
+  </ion-col>
+  <ion-col size="3">
+    <div>
+      <ion-button
+        id="btn"
+        color="light"
+        class="calc-button"
+        (click)="click(4)"
+        size="large"
+      >
+        <p class="text">{{array[4]}}</p>
+      </ion-button>
+    </div>
+  </ion-col>
+  <ion-col size="3">
+    <div>
+      <ion-button
+        id="btn"
+        color="light"
+        class="calc-button"
+        (click)="click(5)"
+        size="large"
+      >
+        <p class="text">{{array[5]}}</p>
+      </ion-button>
+    </div>
+  </ion-col>
+</ion-row>
+
+<ion-row class="ion-justify-content-center">
+  <ion-col size="3">
+    <div>
+      <ion-button
+        color="light"
+        id="btn"
+        class="calc-button"
+        (click)="click(6)"
+        size="large"
+      >
+        <p class="text">{{array[6]}}</p>
+      </ion-button>
+    </div>
+  </ion-col>
+  <ion-col size="3">
+    <div>
+      <ion-button
+        id="btn"
+        color="light"
+        class="calc-button"
+        (click)="click(7)"
+        size="large"
+      >
+        <p class="text">{{array[7]}}</p>
+      </ion-button>
+    </div>
+  </ion-col>
+  <ion-col size="3">
+    <div>
+      <ion-button
+        id="btn"
+        color="light"
+        class="calc-button"
+        (click)="click(8)"
+        size="large"
+      >
+        <p class="text">{{array[8]}}</p>
+      </ion-button>
+    </div>
+  </ion-col>
+</ion-row>
+
+<ion-grid>
+  <ion-row>
+    <ion-col class="ion-text-center">
+      <ion-button color="light" size="large" (click)="start()">
+        Start Play
+      </ion-button>
+    </ion-col>
+  </ion-row>
+</ion-grid>
