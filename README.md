@@ -20,6 +20,8 @@
 
 <hr>
 
+<br>
+
 This project is developed using **angular 13.2.2** and **ionic 6.0.0**.
 
 To develop the project it is necessary to install nodejs, the installation of node is different in each operating system (see installation documentation).
