@@ -66,9 +66,34 @@ Three outcomes are possible in the game:
 
 <br>
   
-  - Player 1 victory
+  - **Player 1 victory**
 
 when the first player puts three x's diagonally, horizontally or vertically wins.
 
 ![game](./images/vittoria1.png) 
 ![game](./images/vittoria1x.png) 
+
+<br>
+
+- **Player 2 victory**
+
+when the second player puts three x's diagonally, horizontally or vertically wins.
+
+![game](./images/vittoria2.png) 
+![game](./images/congratulazioni2.png) 
+
+- **Tie**
+
+when the combinantion of X or 0 gives not result, the two player tie. 
+
+![game](./images/pareggio.png) 
+![game](./images/p.png) 
+
+<br>
+
+<hr>
+
+# *Basic Multiple Game*
+
+*Enjoy 2F*
+
