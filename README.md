@@ -48,6 +48,27 @@ The following project is divided into 2 parts.
 
 ## Home
 
-
-
 In this section we simply have a very short description of how the game works and the rules, with a button. By going to press the button we are going to start the game
+
+
+![home](./images/home.png) 
+
+## Game
+
+![game](./images/start.png) 
+
+In this section is the game where the first one to make the move is always player 1 identified with the letter x.
+Only then will player 2 with the symbol 0 play.
+
+<br>
+
+Three outcomes are possible in the game:
+
+<br>
+  
+  - Player 1 victory
+
+when the first player puts three x's diagonally, horizontally or vertically wins.
+
+![game](./images/vittoria1.png) 
+![game](./images/vittoria1x.png) 
