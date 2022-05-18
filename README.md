@@ -39,6 +39,35 @@ After installing ionic I generated the project only with Cordova as Capacitor gi
 
 <br>
 
+## Start
+
+To run the project on your browser you need to 
+
+`npm start or ionic serve`
+
+**While platformers must be installed for device installation, they have not yet been implemented in this project.**
+
+But if you want to "run" the project natively (using a physical device).
+
+First you need to add the platforms (android / ios)
+
+`ionc cordova platform add (android/ios)` 
+
+Only after
+
+`ionc cordova run android` 
+
+To run the app in debug mode with the web
+
+`npm run run:live android`
+
+Else if you want run the app with node
+
+`npm run android`
+
+<br>
+
+<hr>
 
 The following project is divided into 2 parts.
 
@@ -49,6 +78,8 @@ The following project is divided into 2 parts.
 - [Game](#game)
 
 <hr>
+
+<br>
 
 ## Home
 
