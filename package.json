@@ -18,7 +18,7 @@
     "@angular/forms": "~18.2.2",
     "@angular/platform-browser": "~20.0.0",
     "@angular/platform-browser-dynamic": "~19.2.4",
-    "@angular/router": "~19.2.0",
+    "@angular/router": "~20.1.4",
     "@capacitor/app": "6.0.2",
     "@capacitor/core": "6.1.2",
     "@capacitor/haptics": "7.0.1",
